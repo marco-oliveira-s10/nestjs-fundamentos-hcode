@@ -13,6 +13,7 @@ export class UserIdCheckMiddlewares implements NestMiddleware {
         }
 
         //console.log('UserIdCheckMiddlewares', 'depois');
+
         next();
     }
 }
